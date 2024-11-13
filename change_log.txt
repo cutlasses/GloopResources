@@ -1,6 +1,6 @@
 1.0.1
 
-- Adding Tape Degrade (DEGR). The lowers the volume and rolls off the high end with each iteration of the loop.
+- Adding Tape Degrade (DEGR). This lowers the volume and rolls off the high end with each iteration of the loop.
 
 - Input Mix A and Mix B is now applied when no loop has been recorded, not just when a loop is playing.
 
