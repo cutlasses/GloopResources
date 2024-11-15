@@ -12,7 +12,7 @@ Gloop is a performance looper for Eurorack with the ability to playback recorded
 
 The firmware is what makes Gloop actually do anything. It's just like software on a normal computer, except it's permanent on the microcontroller until you update it. I hope to regularily update the firmware with new features and bug fixes.
 
-Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop1_1.bin)
+Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop1_1.bin) Click the button to download the raw file. This will be used in the steps below.
 
 ### Flashing the Firmware
 
