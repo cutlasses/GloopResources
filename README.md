@@ -19,7 +19,7 @@ Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/f
 
 ### Testing
 
-If you've built a DIY Gloop and want to test your Gloop you can flash the test firmware which allows you to test the screen and all of the buttons/switches/pots/encoders and sockets. The code for this test is here https://github.com/cutlasses/GloopTest, it should give a good starting point for writing your own replacement firmware for Gloop.
+If you've built a DIY Gloop and want to test your Gloop you can flash the test firmware which allows you to test the screen and all of the buttons/switches/pots/encoders and sockets. https://github.com/cutlasses/GloopResources/blob/main/firmware/Other/GloopTest.bin The code for this test is here https://github.com/cutlasses/GloopTest, it should give a good starting point for writing your own replacement firmware for Gloop.
 
 ### Flashing the Firmware
 
