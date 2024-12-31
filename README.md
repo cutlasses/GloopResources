@@ -17,6 +17,12 @@ The firmware is what makes Gloop actually do anything. It's just like software o
 
 Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop1_1.bin) Click the button to download the raw file. This will be used in the steps below.
 
+### Testing
+
+If you've built a DIY Gloop and want to test your Gloop you can flash the test firmware which allows you to test the screen and all of the buttons/switches/pots/encoders and sockets. https://github.com/cutlasses/GloopResources/blob/main/firmware/Other/GloopTest.bin
+
+The code for this test is here https://github.com/cutlasses/GloopTest, it should also give a good starting point for writing your own replacement firmware for Gloop as it exposes a the hardware pin configuration.
+
 ### Flashing the Firmware
 
 To update Gloop firmware, you need a USB micro-B cable and a firmware .bin file, follow these steps
