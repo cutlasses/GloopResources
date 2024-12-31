@@ -1,9 +1,24 @@
-1.0.1
+Version 1.0.1
 
 - Adding Tape Degrade (DEGR). This lowers the volume and rolls off the high end with each iteration of the loop.
-
 - Input Mix A and Mix B is now applied when no loop has been recorded, not just when a loop is playing.
-
 - Tape effect now applies to all heads, not just head 0.
-
 - Firmware version is now shown as major and minor revision
+
+
+Version 1.1.0
+
+
+Features:
+- Split tape effect into
+	Wobble (WOBB) - applies a wow and flutter off simulating a broken tape player
+	Saturation (SAT) - applies tape saturation
+	Age (AGE) - adds tape hiss and random drop outs
+- Added (equal power) panning per tape head (rather than A/B or A+B). Effects are still mono, so when panning tape heads you may want to disable effects. Old behaviour can still be achieved by having pan at 12 o'clock for A+B, and hard left, right for A/B
+- Added CRSF dial (Cross Fade) to "Effects B" menu. Previously all cross-fades were 5ms. You can now vary the length of the cross fade from 5 milliseconds to 1 second. This results in smoother blends when a loop restarts. If the playhead is forced outside of the loop section (for instance when using the JMP modulation, or moving the loop position), the quick cross fade of 5ms is still applied.
+
+Bug fixes:
+- Fixed issue with tape effect wobble, was previously being applied incorrectly and didn't sound right!
+- Fixed an issue where, if you were modulating the position of the loop segment and this resulted in the play head being constantly restarted, the audio would sound distorted. This was because the playhead couldn't cross fade quickly enough to the next position. Loop position modulation is now only applied every 50ms (20Hz). You can modulate at a faster rate, but it will be sub-sampled.
+- Improved gain application of gain pots and A/B input mix (now properly logarithmic)
+- Improved calibration menu
