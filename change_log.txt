@@ -1,9 +1,15 @@
-Version 1.0.1
+Version 1.2.0
 
-- Adding Tape Degrade (DEGR). This lowers the volume and rolls off the high end with each iteration of the loop.
-- Input Mix A and Mix B is now applied when no loop has been recorded, not just when a loop is playing.
-- Tape effect now applies to all heads, not just head 0.
-- Firmware version is now shown as major and minor revision
+Features:
+- Pan can now be a CV Target to allow pan control via CV
+- For text lists, such as CV Targets, which you scroll through with the encoder can now be reset to the first option by pressing the same encoder
+- Separating mono and stereo effects. The 'EFF' option is now named 'MEFF' and only applies to the mono effects (delay and reverb) which can only be applied to a single channel (A or B). All other effects such as bit crush, tape saturation, are stereo, so apply to both channels.
+- Separate Tape Age 'AGE' into 'HISS' (tape hiss) and 'AGE' (random dropouts), moved 'DEGR' (loop degrade into the Effects 3 page).
+- Holding down the clear button for 2 second will clear the loop but not the state of the play heads (position, size, speed etc), you must hold for an additional 2 seconds (4 seconds total) to clear those). Previously holding for 2 seconds cleared the buffer and reset the playheads.
+
+Bug fixes:
+- Fixed issue where Audio In level was not respected when overdubbing
+
 
 
 Version 1.1.0
@@ -21,3 +27,11 @@ Bug fixes:
 - Fixed an issue where, if you were modulating the position of the loop segment and this resulted in the play head being constantly restarted, the audio would sound distorted. This was because the playhead couldn't cross fade quickly enough to the next position. Loop position modulation is now only applied every 50ms (20Hz). You can modulate at a faster rate, but it will be sub-sampled.
 - Improved gain application of gain pots and A/B input mix (now properly logarithmic)
 - Improved calibration menu
+
+
+Version 1.0.1
+
+- Adding Tape Degrade (DEGR). This lowers the volume and rolls off the high end with each iteration of the loop.
+- Input Mix A and Mix B is now applied when no loop has been recorded, not just when a loop is playing.
+- Tape effect now applies to all heads, not just head 0.
+- Firmware version is now shown as major and minor revision
