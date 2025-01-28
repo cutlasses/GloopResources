@@ -35,4 +35,7 @@ Connect the Daisy Seed to your PC/Mac using the micro-B cable
 - Click “Choose File” and browse to the firmware .bin you want to update Gloop to
 - Click the Program button
 
+#### Windows Users
+If you have difficulties flashing the Daisy, and it doesn't show up as a device as expected, see [here](https://github.com/electro-smith/DaisyWiki/wiki/Using-Zadig-to-Reset-USB-Driver-(Windows-Only)) 
+
 
