@@ -8,7 +8,7 @@ Gloop is a performance looper for Eurorack with the ability to playback recorded
 To keep up to date with Gloop happenings, join the [mailing list](https://www.cutlasses.co.uk/cutlasses-instruments/gloop-update/)
 
 ## Documents
-[Manual](https://github.com/cutlasses/GloopResources/blob/main/Manual%201.1.0.pdf)  
+[Manual](https://github.com/cutlasses/GloopResources/blob/main/Manual%20FW%201.2.0.pdf)  
 [Build Doc](https://www.thonk.co.uk/wp-content/uploads/2024/11/Cutlasses-Gloop-build-doc-v1.0.pdf)  
 
 ## Firmware
