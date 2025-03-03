@@ -1,14 +1,20 @@
+Version 1.2.1
+
+Bug fix:
+- Fixed issue where Audio level in was not respected when recording the initial loop
+
 Version 1.2.0
 
 Features:
 - Pan can now be a CV Target to allow pan control via CV
 - For text lists, such as CV Targets, which you scroll through with the encoder can now be reset to the first option by pressing the corresponding encoder
-- Separating mono and stereo effects. The 'EFF' option is now named 'MEFF' and only applies to the mono effects (delay and reverb) which can only be applied to a single channel (A or B). All other effects such as bit crush, tape saturation, are stereo, so apply to both channels.
-- Separate Tape Age 'AGE' into 'HISS' (tape hiss) and 'AGE' (random dropouts), moved 'DEGR' (loop degrade into the Effects 3 page).
-- Holding down the clear button for 2 second will clear the loop but not the state of the play heads (position, size, speed etc), you must hold for an additional 2 seconds (4 seconds total) to clear those). Previously holding for 2 seconds cleared the buffer and reset the playheads.
+- Mono and stereo effects have been separated. The 'EFF' option is now named 'MEFF' and only applies to the mono effects (delay and reverb) which can only be applied to a single channel (A or B) due to memory constraints. All other effects such as bit crush and tape saturation, are now stereo, so apply to both channels.
+- Separated Tape Age 'AGE' into 'HISS' (tape hiss) and 'AGE' (random dropouts), moved 'DEGR' (loop degrade into the Effects 3 page).
+- Holding down the clear button for 2 seconds will clear the loop but not the state of the play heads (position, size, speed etc), you must hold for an additional 2 seconds (4 seconds total) to clear those). Previously holding for 2 seconds cleared the buffer and reset the playheads.
 
 Bug fixes:
 - Fixed issue where Audio In level was not respected when overdubbing
+
 
 
 
