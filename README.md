@@ -15,7 +15,7 @@ To keep up to date with Gloop happenings, join the [mailing list](https://www.cu
 
 The firmware is what makes Gloop actually do anything. It's just like software on a normal computer, except it's permanent on the microcontroller until you update it. I hope to regularily update the firmware with new features and bug fixes.
 
-Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop_1_2_0.bin) Click the button to download the raw file. This will be used in the steps below.
+Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop_1_2_1.bin) Click the button to download the raw file. This will be used in the steps below.
 
 ### Testing
 
