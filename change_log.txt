@@ -1,3 +1,15 @@
+Version 1.2.3
+
+Bug fix:
+
+Fixed issue when recording a loop of maximum length (2 minutes) and the play heads would stop responding correctly
+
+
+Version 1.2.2
+
+Features:
+- Minor improvements to calibration. If you press and hold record whilst in the calibration screen you can now see calibrated VOct values
+
 Version 1.2.1
 
 Bug fix:
