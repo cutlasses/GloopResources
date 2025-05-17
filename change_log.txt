@@ -1,3 +1,12 @@
+Version 1.3
+
+Features:
+
+- Bit crusher can now be added into the degrade signal path (as well as pre and post reverb)
+- Added wave folder which can be applied pre or post reverb
+- Play heads can be paused and restarted with a quick press of the white button
+- Adding write mode (which replaces the Overdub enabled checkbox). Write mode can be (none, overdub, replace). So in addition to overdub you can replace the audio in the buffer, overwriting whatever was there previously.
+
 Version 1.2.3
 
 Bug fix:
