@@ -8,14 +8,14 @@ Gloop is a performance looper for Eurorack with the ability to playback recorded
 To keep up to date with Gloop happenings, join the [mailing list](https://www.cutlasses.co.uk/cutlasses-instruments/gloop-update/)
 
 ## Documents
-[Manual](https://github.com/cutlasses/GloopResources/blob/main/Manuals/Manual%201.2.0.pdf)  
+[Manual](https://github.com/cutlasses/GloopResources/blob/main/Manuals/Manual%201.3.0.pdf)  
 [Thonk Product Page for Build Doc](https://www.thonk.co.uk/shop/cutlasses-gloop/)  
 
 ## Firmware
 
 The firmware is what makes Gloop actually do anything. It's just like software on a normal computer, except it's permanent on the microcontroller until you update it. I hope to regularily update the firmware with new features and bug fixes.
 
-Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop_1_2_3.bin) Click the button to download the raw file. This will be used in the steps below.
+Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop_1_3_0.bin) Click the button to download the raw file. This will be used in the steps below.
 
 ### Testing
 
