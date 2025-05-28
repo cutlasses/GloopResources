@@ -28,12 +28,14 @@ The code for this test is here https://github.com/cutlasses/GloopTest, it should
 To update Gloop firmware, you need a USB micro-B cable and a firmware .bin file, follow these steps
 
 Connect the Daisy Seed to your PC/Mac using the micro-B cable
-- Go to https://electro-smith.github.io/Programmer/ using Chrome
+- Connect the Daisy Seed to your PC/Mac using the micro-B cable
+- Go to https://flash.daisy.audio/using Chrome
+- Ensure ‘File Upload’ tab is selected
+- Click ‘CHOOSE FILE’ and navigate to the firmware .bin file
+- Click ‘FLASH’
 - Hold the BOOT button down on the Daisy Seed, and then press and release the RESET button (this allows the Seed to be programmed via USB)
-- Click the Connect button
-- Select “DFU in FS mode”
-- Click “Choose File” and browse to the firmware .bin you want to update Gloop to
-- Click the Program button
+- The Daisy should appear in the window
+- Click ‘Connect’and the firmware should start to flash
 
 #### Windows Users
 If you have difficulties flashing the Daisy, and it doesn't show up as a device as expected, see [here](https://github.com/electro-smith/DaisyWiki/wiki/Using-Zadig-to-Reset-USB-Driver-(Windows-Only)) 
