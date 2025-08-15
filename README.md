@@ -25,8 +25,8 @@ The firmware tests all of the components are working correctly. First it will ru
 
 <img src="https://github.com/cutlasses/GloopResources/blob/main/images/GloopTest.png" alt="Picture of Gloop Test firmware">
 
-- **Row 1:** The status of the buttons - Menu Button, Record Button and Clear Button, 'u' means button is up, 'd' means button is down
-- **Row 2:** The status of the encorders, shows -1 when turned left, +1 when turned right
+- **Row 1:** The status of the buttons - Menu Button, Record Button and Clear Button, 'u' means button is up, i,e, not pressed, 'd' means button is pressed down
+- **Row 2:** The status of the encoders, shows -1 when turned left, +1 when turned right. Will also show a 'p' when the encoder button is pressed
 - **Row 3:** Trigger input, shows 'on' when trigger is sent a trigger voltage, and 'off' otherwise
 - **Row 4:** Shows the value of each of the CV inputs. From -5V/+5V, shown as a value from 0 to 100
 
