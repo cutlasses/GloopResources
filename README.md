@@ -30,6 +30,8 @@ The firmware tests all of the components are working correctly. First it will ru
 - **Row 3:** Trigger input, shows 'on' when trigger is sent a trigger voltage, and 'off' otherwise
 - **Row 4:** Shows the value of each of the CV inputs. From -5V/+5V, shown as a value from 0 to 100
 
+You can now press the buttons, turn and press the encoders, and feed the module trigger input and CV. The module also passes through audio from the input to both outputs, A + B. You can give it an audio signal at the input and test the audio is coming out of A + B (at equals levels), you can use a speaker, or if you have one, an oscilloscope.
+
 The code for this test is here https://github.com/cutlasses/GloopTest, it should also give a good starting point for writing your own replacement firmware for Gloop as it exposes a the hardware pin configuration.
 
 ### Flashing the Firmware
