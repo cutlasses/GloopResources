@@ -25,10 +25,10 @@ When you start the test firmware you will be presented with a screen that looks 
 
 <img src="https://github.com/cutlasses/GloopResources/blob/main/images/GloopTest.png" alt="Picture of Gloop Test firmware">
 
-Row 1: The status of the buttons - Menu Button, Record Button and Clear Button, 'u' means button is up, 'd' means button is down
-Row 2: The status of the encorders, shows -1 when turned left, +1 when turned right
-Row 3: Trigger input, shows 'on' when trigger is sent a trigger voltage, and 'off' otherwise
-Roq 4: Shows the value of each of the CV inputs. From -5V/+5V, shown as a value from 0 to 100
+- Row 1: The status of the buttons - Menu Button, Record Button and Clear Button, 'u' means button is up, 'd' means button is down
+- Row 2: The status of the encorders, shows -1 when turned left, +1 when turned right
+- Row 3: Trigger input, shows 'on' when trigger is sent a trigger voltage, and 'off' otherwise
+- Roq 4: Shows the value of each of the CV inputs. From -5V/+5V, shown as a value from 0 to 100
 
 The code for this test is here https://github.com/cutlasses/GloopTest, it should also give a good starting point for writing your own replacement firmware for Gloop as it exposes a the hardware pin configuration.
 
