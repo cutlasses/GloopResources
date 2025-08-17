@@ -60,7 +60,7 @@ Connect the Daisy Seed to your PC/Mac using the micro-B cable
 - The Daisy should appear in the window
 - Click ‘Connect’and the firmware should start to flash
 
-<img src="https://github.com/cutlasses/GloopResources/blob/main/images/DaisyProgrammer1.png" alt="Picture of Daisy flash page">
+<img src="https://github.com/cutlasses/GloopResources/blob/main/images/DaisyProgrammer1.png" alt="Picture of Daisy flash page" height="300">
 
 #### Windows Users
 If you have difficulties flashing the Daisy, and it doesn't show up as a device as expected, see [here](https://github.com/electro-smith/DaisyWiki/wiki/Using-Zadig-to-Reset-USB-Driver-(Windows-Only)) 
