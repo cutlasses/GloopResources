@@ -42,7 +42,7 @@ You can now press the buttons, turn and press the encoders, and feed the module 
 - the CVs show the full range from 0..100, try giving them a slow lfo from -5v to +5v
 - audio pass through - output waves match input waves in volume
 
-If any of these tests fail, check your soldering and try again. If they still fail, contact Thonk support.
+If any of these tests fail, check your soldering and try again. If they still fail, contact Thonk support@thonk.co.uk.
 
 The code for this test is here https://github.com/cutlasses/GloopTest, it should also give a good starting point for writing your own replacement firmware for Gloop as it exposes a the hardware pin configuration.
 
