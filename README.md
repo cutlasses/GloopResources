@@ -52,7 +52,7 @@ To update Gloop firmware, you need a USB micro-B cable and a firmware .bin file,
 
 Connect the Daisy Seed to your PC/Mac using the micro-B cable
 - Connect the Daisy Seed to your PC/Mac using the micro-B cable
-- Go to https://flash.daisy.audio/using Chrome
+- Go to https://flash.daisy.audio/using Chrome (you should see something similar to the screenshot below)
 - Ensure ‘File Upload’ tab is selected
 - Click ‘CHOOSE FILE’ and navigate to the firmware .bin file
 - Click ‘FLASH’
