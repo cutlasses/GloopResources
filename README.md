@@ -19,8 +19,6 @@ Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/f
 
 <img src="https://github.com/cutlasses/GloopResources/blob/main/images/Firmware%20download.png" alt="Picture of Github download button">
 
-
-
 This will be used in the steps below.
 
 ## Testing
@@ -61,6 +59,8 @@ Connect the Daisy Seed to your PC/Mac using the micro-B cable
 - Hold the BOOT button down on the Daisy Seed, and then press and release the RESET button (this allows the Seed to be programmed via USB)
 - The Daisy should appear in the window
 - Click ‘Connect’and the firmware should start to flash
+
+<img src="https://github.com/cutlasses/GloopResources/blob/main/images/DaisyProgrammer1.png" alt="Picture of Daisy flash page">
 
 #### Windows Users
 If you have difficulties flashing the Daisy, and it doesn't show up as a device as expected, see [here](https://github.com/electro-smith/DaisyWiki/wiki/Using-Zadig-to-Reset-USB-Driver-(Windows-Only)) 
