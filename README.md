@@ -15,13 +15,19 @@ To keep up to date with Gloop happenings, join the [mailing list](https://www.cu
 
 The firmware is what makes Gloop actually do anything. It's just like software on a normal computer, except it's permanent on the microcontroller until you update it. I hope to regularily update the firmware with new features and bug fixes.
 
-Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop_1_3_0.bin) Click the button to download the raw file. This will be used in the steps below.
+Latest version is [here](https://github.com/cutlasses/GloopResources/blob/main/firmware/Gloop_1_3_0.bin) Click the "Download Raw File" button to download the raw file.
 
-### Testing
+<img src="https://github.com/cutlasses/GloopResources/blob/main/images/Firmware%20download.png" alt="Picture of Github download button">
 
-If you've built a DIY Gloop and want to test your Gloop the firmware should be installed by default, if not you can flash the test firmware found here https://github.com/cutlasses/GloopResources/blob/main/firmware/Other/GloopTest.bin
 
-The firmware tests all of the components are working correctly. First it will run a screen test, then you will you will be presented with a screen that looks like this:
+
+This will be used in the steps below.
+
+## Testing
+
+If you've built a DIY Gloop the test firmware should be installed by default, if not you can flash the test firmware found here https://github.com/cutlasses/GloopResources/blob/main/firmware/Other/GloopTest.bin
+
+The firmware tests all of the components are working correctly. First it will run a screen test, look out for 'dead pixel' (i.e. little black dots when the screen if filled white), this could indicate a faulty screen. After the screen test you will you will be presented with a screen that looks like this:
 
 <img src="https://github.com/cutlasses/GloopResources/blob/main/images/GloopTest.png" alt="Picture of Gloop Test firmware">
 
@@ -30,7 +36,15 @@ The firmware tests all of the components are working correctly. First it will ru
 - **Row 3:** Trigger input, shows 'on' when trigger is sent a trigger voltage, and 'off' otherwise
 - **Row 4:** Shows the value of each of the CV inputs. From -5V/+5V, shown as a value from 0 to 100
 
-You can now press the buttons, turn and press the encoders, and feed the module trigger input and CV. The module also passes through audio from the input to both outputs, A + B. You can give it an audio signal at the input and test the audio is coming out of A + B (at equals levels), you can use a speaker, or if you have one, an oscilloscope.
+You can now press the buttons, turn and press the encoders, and feed the module trigger input and CV. The module also passes through audio from the input to both outputs, A + B. You can give it an audio signal at the input and test the audio is coming out of A + B (at equals levels), you can use a speaker, or if you have one, an oscilloscope. You should make test the follow:
+- each button shows 'd' when pressed (or 'p' for encoders)
+- each encoder correctly registers left and right rotation
+- each pot shows the full range from 0..99
+- the trigger input correctly recognises triggers
+- the CVs show the full range from 0..100, try giving them a slow lfo from -5v to +5v
+- audio pass through - output waves match input waves in volume
+
+If any of these tests fail, check your soldering and try again. If they still fail, contact Thonk support.
 
 The code for this test is here https://github.com/cutlasses/GloopTest, it should also give a good starting point for writing your own replacement firmware for Gloop as it exposes a the hardware pin configuration.
 
