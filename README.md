@@ -25,6 +25,8 @@ This will be used in the steps below.
 
 If you've built a DIY Gloop the test firmware should be installed by default, if not you can flash the test firmware found here https://github.com/cutlasses/GloopResources/blob/main/firmware/Other/GloopTest.bin
 
+The test firmware should be run with Gloop connected to eurorack power +/-12V (rather than USB power), as this is required to drive the op-amps which comprise the gain-stages for the CV and audio in/out.
+
 The firmware tests all of the components are working correctly. First it will run a screen test, look out for 'dead pixel' (i.e. little black dots when the screen if filled white), this could indicate a faulty screen. After the screen test you will you will be presented with a screen that looks like this:
 
 <img src="https://github.com/cutlasses/GloopResources/blob/main/images/GloopTest.png" alt="Picture of Gloop Test firmware">
